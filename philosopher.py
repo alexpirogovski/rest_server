@@ -112,7 +112,9 @@ class Philosopher(Thread):
 
         self.log.info("{} ate {} times and thought {} times".format(self.name, self._total_ate_times, self._total_thought_times))
 
-    def __repr__(self):
-        return str({"name": self.philosopher_name})
+    # def __repr__(self):
+    #     return str({"name": self.philosopher_name})
 
     # __str__ = __repr__
+    def to_json(self):
+        return {"name": self.philosopher_name}
