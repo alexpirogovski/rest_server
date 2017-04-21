@@ -10,12 +10,12 @@ import logging
 
 class Philosopher(Thread):
 
-    def __init__(self, name):
+    def __init__(self, name, chopstick_pool):
         self.log = logging.getLogger(name)
         self._eating_time = 5
         self._philosopher_name = name
         self._state = PhilosopherState.thinking
-        # self._chopstick_pool = chopstick_pool
+        self._chopstick_pool = chopstick_pool
         self._total_ate_times = 0
         self._total_thought_times = 0
         Thread.__init__(self, name=self.philosopher_name, args=())

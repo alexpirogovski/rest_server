@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Schultz\PycharmProjects\rest_api_requests\.idea\rest_api_requests.iml" filepath="C:\Users\Schultz\PycharmProjects\rest_api_requests\.idea\rest_api_requests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rest_server.iml" filepath="$PROJECT_DIR$/.idea/rest_server.iml" />
     </modules>
   </component>
